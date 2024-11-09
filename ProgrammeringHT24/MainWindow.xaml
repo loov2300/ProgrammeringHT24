@@ -1,0 +1,15 @@
+﻿<Window x:Class="FL1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProgrammeringHT24"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnOk" Content="OK" HorizontalAlignment="Left" Margin="138,185,0,0" VerticalAlignment="Top" Height="32" Width="59" Click="btnOk_Click"/>
+        <Button x:Name="btnFirst" Content="Oklickad" HorizontalAlignment="Left" Margin="371,185,0,0" VerticalAlignment="Top" Height="36" Width="63" Click="btnFirst_Click"/>
+        <Button x:Name="btnSecond" Content="Oklickad" HorizontalAlignment="Left" Margin="524,185,0,0" VerticalAlignment="Top" Height="37" Width="60" Click="btnSecond_Click"/>
+
+    </Grid>
+</Window>

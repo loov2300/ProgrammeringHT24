@@ -1,0 +1,22 @@
+﻿<Window x:Class="Kalkylatorn.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kalkylatorn"
+        mc:Ignorable="d"
+        Title="Kalkylatorn" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtFirstValue" HorizontalAlignment="Left" Margin="123,105,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="142" Height="33"/>
+        <TextBox x:Name="txtSecondValue" HorizontalAlignment="Center" Margin="0,105,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="142" Height="33"/>
+        <TextBox x:Name="txtResult" HorizontalAlignment="Left" Margin="123,250,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="142" Height="33"/>
+        <Button x:Name="btnAddition" Content="+" HorizontalAlignment="Left" Margin="157,176,0,0" VerticalAlignment="Top" Width="30" Click="btnAddition_Click"/>
+        <Button x:Name="btnDivition" Content="/" HorizontalAlignment="Left" Margin="225,176,0,0" VerticalAlignment="Top" Width="28" Click="btnDivition_Click"/>
+        <Button x:Name="btnMultiplication" Content="*" HorizontalAlignment="Left" Margin="295,176,0,0" VerticalAlignment="Top" Width="28" Click="btnMultiplication_Click"/>
+        <Button x:Name="btnSubstraction" Content="-" HorizontalAlignment="Left" Margin="360,176,0,0" VerticalAlignment="Top" Width="28" Click="btnSubstraction_Click"/>
+        <TextBlock x:Name="result" HorizontalAlignment="Left" Margin="123,229,0,0" TextWrapping="Wrap" Text="Resultat" VerticalAlignment="Top" RenderTransformOrigin="0.037,0.354" Width="142"/>
+        <TextBlock x:Name="valueOne" HorizontalAlignment="Left" Margin="123,84,0,0" TextWrapping="Wrap" Text="Ange första värdet" VerticalAlignment="Top" RenderTransformOrigin="0.123,1.275" Width="142"/>
+        <TextBlock x:Name="ValueTwo" HorizontalAlignment="Center" Margin="0,84,0,0" TextWrapping="Wrap" Text="Ange andra värdet" VerticalAlignment="Top" RenderTransformOrigin="0.123,1.275" Width="142"/>
+
+    </Grid>
+</Window>
